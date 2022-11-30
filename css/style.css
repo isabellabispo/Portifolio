@@ -1,0 +1,332 @@
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Rubik+Glitch&family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* welcome*/
+section.section-Welcome {
+  border: 4%;
+  width: 100% !important;
+  height: 50vh;
+  background: linear-gradient(45deg, #00005C, #36203b, #241336, #1c283b);
+  background-size: 300% 300%;
+  animation: colors 10s infinite ease-out;
+  box-shadow: 10px 2px 10px 5px rgba(56, 56, 56, 0.555);
+}
+
+#welcome {
+  border-style: solid;
+  border-radius: 3px;
+  border-color: rgb(177, 174, 174) !important;
+  background-color: transparent;
+  width: 25% !important;
+  margin-left: -2%;
+  position: absolute;
+  top: 15%;
+
+ 
+}
+
+.section-Welcome p{
+  color: white;
+  font-size: 330%;
+  font-family: Space Grotesk;
+  top: 15%;
+  font-weight: 100;
+  filter: contrast(280%);
+  
+}
+
+
+/* titles*/
+h3 {
+  margin-top: 2rem !important;
+  font-family: 'Secular One', sans-serif;
+
+}
+
+h5 {
+  font-family: 'Secular One', sans-serif;
+}
+
+h6 {
+  font-family: Space Grotesk;
+  font-weight: 500;
+  text-align: none
+}
+
+/* gif & card sobre mim*/
+
+section.section-aboutMe {
+  margin-top: 10vh;
+  margin-bottom: 14vh;
+
+}
+
+#mygif {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(212, 193, 219) !important;
+}
+
+#mygifImage {
+  width: 25%;
+  height: 50%;
+  position: absolute;
+  left: 10%;
+  box-shadow: 5px 2px 5px 1px rgba(208, 137, 255, 0.692);
+  filter: contrast(75%);
+}
+
+#text-about {
+  background-color: rgba(177, 114, 219, 0.767);
+
+}
+
+#myCard {
+  width: 100% !important;
+  height: 90% !important;
+  margin-top: 3rem;
+  box-shadow: 2px 2px 2px 2px rgba(49, 49, 49, 0.24);
+  left: -13%;
+}
+
+#myCard p {
+ 
+  font-family: Space Grotesk;
+  font-weight: 500;
+  
+}
+
+/* skills*/
+.section-skills {
+  background: url("../imgs/gif.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#js {
+  width: 20%;
+  height: 20%;
+  filter: grayscale(90%);
+  border: none;
+}
+
+#angular {
+  width: 16%;
+  height: 16%;
+  filter: grayscale(90%);
+  filter: contrast(10%);
+  margin-left: -2rem;
+}
+
+#html {
+  width: 9%;
+  filter: grayscale(90%);
+}
+
+#css {
+  width: 9%;
+  filter: grayscale(90%);
+}
+
+#bulma {
+  width: 6%;
+  filter: grayscale(90%);
+}
+
+#boots {
+  width: 10%;
+  filter: grayscale(80%);
+  filter: contrast(35%);
+}
+
+
+/* realizações*/
+.realizations {
+  margin-top: 10vh;
+  margin-left: 4% !important;
+}
+
+#sobreGrad p {
+  text-align: justify;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  left: 10% !important;
+}
+
+#gradImg {
+  width: 60%;
+  border-radius: 60px;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+/*contato*/
+
+#contacth {
+  margin-top: 4rem !important;
+  margin-bottom: 3rem;
+  font-family: 'Secular One', sans-serif;
+  color: rgb(69, 68, 68);
+}
+
+.contact {
+  background-color: #f8f8f8;
+  margin-top: 4rem;
+}
+
+#contact {
+  margin-top: 2rem;
+}
+
+#email {
+  margin-top: -0.2rem;
+  width: 20%;
+  margin-left: -0.9rem;
+}
+
+#cardEmail {
+  width: 22%;
+  height: 13%;
+  box-shadow: 5px 2px 5px 2px rgba(82, 81, 81, 0.31);
+  margin-top: 1.4rem;
+  margin-left: 39%;
+}
+
+#gitCard {
+  margin-top: -0.2rem;
+  width: 38%;
+  margin-left: -2rem;
+}
+
+.pgit {
+  margin-left: -0.1rem !important;
+}
+
+.pwt {
+  margin-top: 0.5rem;
+  margin-left: 0.8rem !important;
+  display: inline-block;
+}
+
+.card p {
+  display: inline-block;
+  margin-left: 1rem;
+  font-family: 'Secular One', sans-serif;
+  font-size: larger;
+  color: rgb(76, 75, 75);
+}
+
+#cardEmail p:hover {
+  color: #00005C;
+}
+
+#whats {
+  margin-top: -0.2rem;
+  width: 19%;
+  margin-left: 1.2rem;
+}
+
+#link {
+  margin-top: -0.rem;
+  width: 20%;
+}
+
+footer {
+  background-color: #73447d;
+}
+
+footer h5 {
+  color: white;
+  font-family: Space Grotesk;
+}
+
+/*animations*/
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*scrool data- js*/
+[data-animation] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-animation="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-animation].animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0px);
+}
+
+
+
+
+.another_section-aboutMe {
+  margin-top: 10vh;
+  margin-bottom: 14vh;
+
+}
+
+#anoter_mygif{
+  width: 50%;
+  height: 50%;
+  
+}
+
+#another_gifimage{
+  width: 50%;
+  height: 50%;
+  margin-left: 22% !important;
+  box-shadow: 5px 2px 5px 1px rgba(208, 137, 255, 0.692);
+  filter: contrast(75%);
+}
+
+#another_myCard{
+  width: 100% !important;
+  height: 50% !important;
+  margin-top: 3rem;
+  box-shadow: 6px 2px 2px 6px rgba(49, 49, 49, 0.24);
+  margin-left: -8%;
+  
+  
+}
+
+#another_text-about{
+  background-color: rgba(177, 114, 219, 0.767);
+  height: 8% !important;
+  left: 90% !important;
+  margin-left: 12%;
+  
+}
+#another_text-about p{
+font-family: Space Grotesk;
+font-weight: 500;
+}
+
+#hard{
+  margin-bottom: 6rem;
+}
+
+
