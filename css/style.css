@@ -21,10 +21,6 @@ section.section-Welcome {
 }
 
 #welcome {
-  border-style: solid;
-  border-radius: 3px;
-  border-color: rgb(177, 174, 174) !important;
-  background-color: transparent;
   width: 25% !important;
   margin-left: -2%;
   position: absolute;
