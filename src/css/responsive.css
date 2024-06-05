@@ -125,6 +125,7 @@
         width: 35% !important;
         left: 34%;
         font-size: 90%;
+        
     }
     
 }
@@ -169,7 +170,7 @@
 
  
 }
-@media (max-width: 461px){
+@media (max-width: 461px){  
     #boots{
         width: 25% !important;
         margin-left: 1.5rem;
@@ -228,6 +229,14 @@
         width: 50%;
         height: 12%;
         margin-left: 26%;
+    }
+
+    #welcome {
+        width: 35% !important;
+        left: 34%;
+        font-size: 90%;
+        
+        
     }
 
 }
