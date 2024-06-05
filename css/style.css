@@ -235,6 +235,7 @@ section.section-aboutMe {
   margin-top: -0.2rem;
   width: 19%;
   margin-left: 1.2rem;
+  
 }
 
 #link {
@@ -243,6 +244,7 @@ section.section-aboutMe {
 }
 
 footer {
+  padding-top: 1rem;
   background-color: #73447d;
 }
 
