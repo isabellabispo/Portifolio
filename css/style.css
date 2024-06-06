@@ -107,7 +107,7 @@ section.section-aboutMe {
 
 /* skills*/
 .section-skills {
-  background: url("/imgs/gif.gif");
+  background: url("../imgs/gif.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
